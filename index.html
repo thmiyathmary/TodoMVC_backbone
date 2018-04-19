@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>jQuery・TodoMVS</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+  <div class="center">
+    <h1>todos</h1>
+    <form class="whole" id="wholeform" name="form" autocomplete="off" >
+      <input class="radio" type="checkbox" id="toggleAll">
+      <input type="text" id="maintext" name="inputArea" placeholder="What needs to be done?">
+      <table id="todoList">
+      </table>
+      <table id="bottom" >
+        <td id="bottom_left">
+        </td>
+        <td id="bottom_center">
+          <form id="radioForm" class="radio" name="radioForm">
+            <input class="radio" type="radio" name="radioCompleted" value="All" onclick="changeRadioState('All')" checked="checked">All
+            <input class="radio" type="radio" name="radioCompleted" value="Active" onclick="changeRadioState('Active')">Active
+            <input class="radio" type="radio" name="radioCompleted" value="Completed" onclick="changeRadioState('Completed')">Completed
+          </form>
+        </td>
+        <td id="bottom_right">
+          <input type="button" value="Clear completed" onclick="onClickClear()">
+        </td>
+      </table>
+    </form>
+  </div>
+  <h6 class="center">
+    Double-click to edit a todo(WIP)<br>
+    Written by Usui<br>
+    Refactored by Usui<br>
+    Part of TodoMVC(Uso)<br>
+  </h6>
+  <script type="text/javascript" src="js/underscore-min.js"></script>
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/backbone-min.js"></script>
+  <script type="text/javascript" src="js/mvc.js"></script>
+</body>
+
+</html>

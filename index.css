@@ -1,0 +1,109 @@
+body {
+  margin: auto;
+  background-color: #FFFAFA;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: Arial,sans-serif;
+  color: #FFE4E1;
+}
+
+h6 {
+  color: lightgray;
+}
+
+form.whole {
+  width: 600px;
+  margin: auto;
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 10px 1px gray
+}
+
+form.checkbox {
+  width: 40px;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  font-style: oblique;
+}
+
+input#maintext {
+  width: 90%;
+}
+
+input.radio {
+  width: 20px;
+}
+
+table {
+  width: 600px;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+table tr	{
+  width: 600px;
+  border:1px solid #dedede;
+  border-style: solid none none none;
+}
+
+td {
+  text-align: left;
+}
+
+td.del {
+  text-decoration: line-through;
+}
+
+td.checkbox {
+  width: 40px;
+}
+
+td.remove {
+  float: right;
+  width: 40px;
+}
+
+td.center {
+  width: 30%;
+  margin: auto;
+}
+
+table#bottom {
+  width: 600px;
+  margin: auto;
+  border-collapse: collapse;
+  display: none;
+}
+
+td#bottom_left {
+  float: left;
+  text-align: left;
+  width: 130px;
+}
+
+td#bottom_center {
+  text-align: center;
+  margin: auto;
+  width: 334px;
+}
+
+td#bottom_right {
+  float: right;
+  text-align: right;
+  width: 130px;
+  margin: auto;
+}
+
+tbody {
+  width: 600px;
+}
+
+
+.center {
+  text-align: center;
+}
